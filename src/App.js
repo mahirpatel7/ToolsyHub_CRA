@@ -33,8 +33,7 @@ import Main from "./Main";
 
 function App() {
 
-  const connectionString = process.env.REACT_APP_BACKEND_URL;
-  console.log("Backend URL:", connectionString);
+  const connectionString = "https://192.168.29.6:5000";
   return (
     <>
       <Navbar />
