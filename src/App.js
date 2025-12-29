@@ -38,7 +38,7 @@ function App() {
     <>
       <Navbar />
 
-      <Routes>
+      <Routes basename="/ToolsyHub">
         {/* ROOT REDIRECT */}
         <Route path="/" element={<Navigate to="/ToolsyHub" replace />} />
 
