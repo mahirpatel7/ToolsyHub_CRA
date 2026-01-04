@@ -33,7 +33,7 @@ import Main from "./Main";
 
 function App() {
 
-  const connectionString = "https://192.168.29.6:5000";
+  const connectionString = "http://192.168.29.6:5000";
   return (
     <>
       <Navbar />

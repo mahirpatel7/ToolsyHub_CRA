@@ -21,6 +21,7 @@ import ImageConverter from './pages/converters/ImageConverter';
 import UnitsConverter from './pages/converters/UnitsConverter';
 
 function Main({ connectionString }) {
+    console.log("Connection String:", connectionString);
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
             <main className="pt-20">
