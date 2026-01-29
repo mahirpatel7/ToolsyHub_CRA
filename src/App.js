@@ -31,9 +31,13 @@ import Footer from "./components/Footer";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Main from "./Main";
 
+
 function App() {
 
-  const connectionString = "http://192.168.29.6:5000";
+  // const connectionString = "http://192.168.29.6:5000";
+  const connectionString = process.env.REACT_APP_BACKEND_URL;
+  console.log("ENV:", process.env.REACT_APP_BACKEND_URL);
+
   return (
     <>
       <Navbar />
