@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Calculator Pages -->
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/BMICalculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/AgeCalculator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/loan-emi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/percentage</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/date-difference</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/body-fat</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/calorie</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Converter Pages -->
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/pdf-to-word</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/word-to-pdf</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/image-to-pdf</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/pdf-compressor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/image-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://toolsyhubcra.netlify.app/ToolsyHub/units-converter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
