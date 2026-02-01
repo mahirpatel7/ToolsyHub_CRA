@@ -30,6 +30,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Main from "./Main";
+import { useLocation } from "react-router-dom";
+import { trackPageView } from "./analytics";
+import { useEffect } from "react";
 
 
 function App() {
@@ -37,6 +40,13 @@ function App() {
   // const connectionString = "http://192.168.29.6:5000";
   const connectionString = process.env.REACT_APP_BACKEND_URL;
   console.log("ENV:", process.env.REACT_APP_BACKEND_URL);
+
+  const location = useLocation(); // 👈 ADD
+
+  useEffect(() => {
+    // Tracks full path including /ToolsyHub/...
+    trackPageView(location.pathname);
+  }, [location]);
 
   return (
     <>
