@@ -20,6 +20,11 @@ import PDFCompressor from './pages/converters/PDFCompressor';
 import ImageConverter from './pages/converters/ImageConverter';
 import UnitsConverter from './pages/converters/UnitsConverter';
 
+import PrivacyPolicy from "./pages/legal/PrivacyPolicy";
+import Terms from "./pages/legal/Terms";
+import Disclaimer from "./pages/legal/Disclaimer";
+import About from "./pages/legal/About";
+
 function Main({ connectionString }) {
     console.log("Connection String:", connectionString);
     return (
@@ -45,6 +50,12 @@ function Main({ connectionString }) {
                     <Route path="pdf-compressor" element={<PDFCompressor connectionString={connectionString} />} />
                     <Route path="image-converter" element={<ImageConverter connectionString={connectionString} />} />
                     <Route path="units-converter" element={<UnitsConverter connectionString={connectionString} />} />
+
+                    {/* Legal Pages */}
+                    <Route path="privacy-policy" element={<PrivacyPolicy />} />
+                    <Route path="terms" element={<Terms />} />
+                    <Route path="disclaimer" element={<Disclaimer />} />
+                    <Route path="about" element={<About />} />
                 </Routes>
             </main>
         </div>

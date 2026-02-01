@@ -127,6 +127,8 @@ const Footer = () => {
     return (
         <Box component="footer" className="bg-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+                {/* MAIN FOOTER GRID (UNCHANGED) */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 
                     {/* Brand */}
@@ -143,7 +145,7 @@ const Footer = () => {
                         </p>
 
                         <div className="text-sm text-gray-400">
-                            © 2025 ToolsyHub. All rights reserved.
+                            © {new Date().getFullYear()} ToolsyHub. All rights reserved.
                         </div>
                     </div>
 
@@ -233,6 +235,28 @@ const Footer = () => {
                     </div>
 
                 </div>
+
+                {/* LEGAL LINKS SECTION (NEW — ADSENSE REQUIRED) */}
+                <div className="border-t border-gray-800 mt-10 pt-6 text-center">
+                    <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
+                        <Link to="/ToolsyHub/privacy-policy" className="hover:text-white">
+                            Privacy Policy
+                        </Link>
+                        <span>|</span>
+                        <Link to="/ToolsyHub/terms" className="hover:text-white">
+                            Terms & Conditions
+                        </Link>
+                        <span>|</span>
+                        <Link to="/ToolsyHub/disclaimer" className="hover:text-white">
+                            Disclaimer
+                        </Link>
+                        <span>|</span>
+                        <Link to="/ToolsyHub/about" className="hover:text-white">
+                            About
+                        </Link>
+                    </div>
+                </div>
+
             </div>
         </Box>
     );
